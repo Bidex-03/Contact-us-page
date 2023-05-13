@@ -71,7 +71,7 @@ const FeedbackPage = () => {
 
   // Dynamic class for input fields
   const inputClasses =
-    "text-Marine-blue font-semibold mt-2 mb-1 px-4 py-2 rounded-[5px] bg-grey focus:outline-none";
+    "text-paleBlue font-semibold mt-2 mb-1 px-4 py-2 rounded-[5px] bg-grey focus:outline-none resize-none";
 
   // Popup modal
   const formModalContent = (
@@ -112,7 +112,7 @@ const FeedbackPage = () => {
     </React.Fragment>
   );
 
-  const isSubmittingModalContent = <p>Sending order data...</p>;
+  const isSubmittingModalContent = <p>Sending feedback data...</p>;
 
   const didSubmitModalContent = <p>Successfully sent the message!</p>;
 
